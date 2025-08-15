@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BakeAura</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- font aswson link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- java script link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google font link -->
+  </head>
+  <body style=" background-color:snow;
+">
+    <!-- webstie-layout -->
+    <div class="all-contaner">
+     
+        <!-- navbar-container start -->
+         <div class="navbar-container  " style="background-color:#FFF1DB">
+           <div class="navbar-first-div  " id="navbar-first" style="width:190px ;margin-left: 2%;">
+<img src="./image/logoone.png" alt="" style="width: 220px;">
+           </div>
+           <div class="navbar-second-div d-flex " id="navbar-second" style="width:100%; margin-left: 10%; ">
+            <div class="home mt-2">
+                <a href="" class="n cursor-pointer  text-decoration-none fw-bold  text-blue " id="" style="font-size: 22px;">Home</a>
+            </div>
+            <div class="shop mt-2">
+                <a href="../ShopMain/HTML/index.html" class="n cursor-pointer text-blue  text-decoration-none fw-bold " style="font-size: 25px;" >Shop</a>
+            </div>
+            
+           <div class="shopdetail mt-2">
+            <a href="../Bakery2/html/index.html" class="n cursor-pointer text-blue  text-decoration-none fw-bold" style="font-size: 25px; ">Shope Detail</a>
+
+           </div>
+              <div class="pages mt-2">
+                <select name="page" id="page "  class="n fw-bold"style="font-size: 25px; border:none;  color:blue; width: 100px; background-color:#FFF1DB;">
+                    <option value="page "  class="n " style="font-size: 20px;">Pages</option>
+                    <option value="Cart" class="n "  style="font-size: 20px;"><a href="" >Cart</a></option>
+                    <option value="CheckOut" class="n "  style="font-size: 20px;"><a href="">Check Out</a></option>
+                    <option value="Testimonal" class="n "  style="font-size: 20px;"><a href="">Testimonal</a></option>
+                    <option value="404 page" class="n "  style="font-size: 20px;"><a href="">404 page</a></option>
+
+                </select>
+              </div>
+              <div class="contact mt-2">
+                <a href="../ContactMainzipcontactt/index/idex.html" class="n cursor-pointer  text-blue text-decoration-none fw-bold" style="font-size: 25px;">Contact</a>
+
+              </div>
+           </div>
+           <div class="navbar-third-div"id="navbar-third" style="width: 20rem;">
+             <a href="../Login Signup Slider Form/index .html"> <i class="fa-solid fa-right-to-bracket mt-4" style="font-size: 2rem; float: right; margin-right: 50px;"></i></a>
+           </div>
+            <!-- navbar-container closed -->
+         </div>
+       
+
+      
+       <div class="banner-container  "   >
+        
+         <!-- <div class="inner-bannerContainer  " style="height: 400px">
+          <div class="d-flex">
+            <h1 class="mx-auto text-white " style="margin-top: 6rem;">Freshly Baked Goodness Every Day!</h1>
+            
+          </div> -->
+          <!-- <div class="" style="text-align: center;">
+            <input type="text" name="search" id="search" class="mx-auto" placeholder="" style="width: 300px; height: 50px; border-radius: 50px;">
+            <button style="width: 100px; height: 50px; border-radius: 50px;">Search</button>
+          </div>
+           -->
+
+            
+            
+
+         </div>
+          <!-- silder images -->
+           <div class="maincontainer d-flex">
+            <div class="container-fuild " id="silder-box" style="height: 500px; width: 60rem; margin-left: 0%;">
+              <div class="divsilder  " id="silder" style="height: 250px;">
+                <span style="--i:1;" id="s"><img src=".//image/cake1.jpg" alt=""></span>
+                <span style="--i:2;" id="s"><img src=".//image/cookessecond images.jpg" alt=""></span>
+                <span style="--i:3;" id="s"><img src=".//image/cake1.jpg" alt=""></span>
+                <span style="--i:4;" id="s"><img src=".//image/cake4.jpg" alt=""></span>
+                <span style="--i:5;" id="s"><img src=".//image/cookies3.jpg" alt=""></span>
+                <span style="--i:6;" id="s"><img src=".//image/cookies iimages.jpeg" alt=""></span>
+                <span style="--i:7;" id="s"><img src=".//image/cookies3.jpg" alt=""></span>
+                <span style="--i:8;" id="s"><img src=".//image/cookies3.jpg" alt=""></span>
+  
+                
+               
+                
+              </div>
+              
+
+             
+           </div> 
+           <div class="serachbox "  style="height: 500px; width: 40rem; margin-right: 0%; background-color:#FFF1DB" >
+             <div class="banner-container  mx-auto col-12 col-md-0 col-lg-11 mt-3" style="height: 400px;  background-repeat: no-repeat;">
+        
+         <div class="inner-bannerContainer  " style="height: 400px">
+          <div class="d-flex">
+            <h1 class="mx-auto  " style="margin-top: 6rem; color:blue; font-style: italic;">Freshly Baked <br>
+               Goodness Every Day!</h1>
+            
+          </div>
+          <div class="" style="text-align: center;">
+            <input type="text" name="search" id="search" class="mx-auto" placeholder="" style="width: 300px; height: 50px; border-radius: 10px; border-color: blue;">
+            <button style="width: 100px; height: 50px; border-radius: 10px; background-color:blue; border: 2px solid blue; color:white;"class="fw-bold" id="a" >Search</button>
+          </div>
+          
+
+            
+            
+
+         </div>
+            </div>
+          
+            <!-- silder colsed -->
+           </div>
+        
+       </div>
+           
+        <!-- company policy detail container -->
+         <!-- <div class="polic-container  d-flex mx-auto mt-5" style="height: 450px; width:90rem; border-radius: 10px;">
+          <div class="policyfirst   mt-4   mx-auto" id="a" style="height:400px; width: 22rem; margin-bottom:1rem; border-radius: 10px;  ">
+            <img src=".//image/shpping logo.png" alt="" class="mt-3" id="shipping" style="height:300px; width: 19rem; justify-content: center; border-radius: 100%; margin-left: 15px;">
+            <h3 style="font-size:20px; text-align: center; margin-top: 10px;">Free shpping</h3> 
+            <h3 style="font-size:20px; text-align: center;">Free on order over $300</h3> 
+
+                   </div>
+          <div class="policysecond mx-auto mt-4" id="a"style="height:400px; width: 22rem; margin-bottom:1rem; ">
+            <img src=".//image/security logo.png"  class="mt-3"alt="" style="height:300px; width: 19rem; justify-content: center; border-radius:1000px; background-color: lightpink; margin-left: 15px;">
+            <h3 style="font-size:20px; text-align: center ; margin-top: 10px; ">Security Payment</h3> 
+            <h3 style="font-size:20px; text-align: center;">100% security payment</h3> 
+          </div>
+          <div class="policythird  mx-auto mt-4" id="a"style="height:400px; width: 22rem; margin-bottom:1rem; ">
+            <img src=".//image/security logo.png"  class="mt-3"alt="" style="height:300px; width: 19rem; justify-content: center; border-radius:100%; background-color: lightpink; margin-left: 18px;">
+            <h3 style="font-size:20px; text-align: center; margin-top: 10px;">Security Payment</h3> 
+            <h3 style="font-size:20px; text-align: center;">100% security payment</h3> 
+          </div> -->
+          
+          <!-- company policy detail container closed -->
+         <!-- </div> -->
+
+         
+       <!-- Our product container start -->
+      <div class=" mx-auto col-11 col-md-0 col-lg-11 mt-5 d-flex"style="height:100px; ">
+        <div class="our-first   col-12 col-md-0 col-lg-4 " style="height:100px;">
+           <h1 class="text-color fw-bold mt-3" style="  color:blue; " >Our Bake Product</h1>
+        </div>
+        <div class="our-second col-12 col-md-0 col-lg-8  "style="height:100px;">
+          
+          <button class="allproduct fw-bold mt-3"id="a" style=" color: blue; width: 100px; height: 50px; border-radius: 50px;">all Product</button>
+          <button class="allproduct fw-bold mt-3" id="a"style="background-color: ; color: blue; width: 100px; height: 50px;  border-radius: 50px;">Bread</button>
+         <a href=".//cookies  folder/cookies.html"> <button class="allproduct fw-bold mt-3" id="a"style="background-color: ; color:blue; width: 100px; height: 50px;  border-radius: 50px;">Cake</button></a>
+       <a href=".//cookies  folder/index.html">  <button class="allproduct fw-bold mt-3" id="a"style="background-color: ; color:blue; width: 100px; height: 50px;  border-radius: 50px;">Cookies</button></a> 
+
+          
+        </div>
+
+        
+       <!-- Our product container closed -->
+
+      </div>
+      <!-- allproduct image first container start -->
+      <div class="allproduct-first d-flex mt-4 col-11 col-md-0 col-lg-11 mx-auto" style="height: 550px; weigth:200px;  border-radius: 10px;">
+        <div class="image-first  mt-4 mx-auto" id="a" style="height:500px; width: 20rem; background-color: #FFF1DB">
+           <div class="image1">
+           <img src=".//image/cookies4.jpg" alt="" style="width: 313px;height: 250px; border-radius: 10px;">
+           </div>
+           <div class="content1 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px; "></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px; "></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px; "></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px; "></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;  "><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px; "></i> <button style="background-color:#3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+            
+
+           </div>
+        </div>
+        <div class="image-second  mt-4 mx-auto" id="a" style="height:500px; width: 20rem; background-color: #FFF1DB">
+          <div class="image2">
+            <img src=".//image/cookies3.jpg" alt="" style="width: 313px;height: 250px; border-radius: 10px;">
+
+          </div>
+          <div class="content1 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+          </div>
+        </div>
+        <div class="image-third  mt-4 mx-auto"  id="a"style="height:500px; width: 20rem; background-color: #FFF1DB">
+          <div class="image3">
+            <img src=".//image/cookessecond images.jpg" alt="" style="width: 313px;height: 250px; border-radius: 10px;">
+
+          </div>
+          <div class="content1 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+          </div>
+        </div>
+        <div class="image-four   mx-auto mt-4" id="a"  style="height:500px; width: 20rem; background-color: #FFF1DB">
+          <div class="image4">
+            <img src=".//image/cookies iimages.jpeg" alt=""style="width: 313px;height: 250px; border-radius: 10px;">
+
+          </div>
+          <div class="content1  mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+          </div>
+        </div>
+         
+        <!-- allproduct image closed -->
+      </div>
+
+       <!-- allproduct image second container start -->
+       <div class="allproduct-first  d-flex mt-5 col-11 col-md-0 col-lg-11 mx-auto" style="height: 600px; weigth:200px;  border-radius: 10px;">
+        <div class="image-first   mx-auto" id="a"  style="width: 300px;height: 490px; margin-left:33px; margin-top: 20px; border-radius: 10px; background-color: #FFF1DB">
+           <div class="image5">
+            <img src=".//image/cake1.jpg" alt=""  style="width: 293px;height: 250px; border-radius: 10px;">
+
+           </div>
+           <div class="content1 mt-4">
+            <h1 style="font-size: 20px; text-align: center; ">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+
+           </div>
+        </div>
+        <div class="image-second  mx-auto" id="a" style="width: 300px;height: 500px; margin-left:33px; margin-top: 20px; border-radius: 10px; background-color: #FFF1DB">
+          <div class="image6">
+            <img src=".//image/cake2.jpeg" alt="" style="width: 293px;height: 250px; border-radius: 10px;">
+
+
+          </div>
+          <div class="content2 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+        <div class="image-third  mx-auto" id="a"  style="width: 300px;height: 500px; margin-left:33px; margin-top: 20px; border-radius: 10px; background-color: #FFF1DB">
+          <div class="image7">
+            <img src=".//image/cake3.jpeg" alt="" style="width: 293px;height: 250px; border-radius: 10px;">
+
+          </div>
+          <div class="content3 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+        <div class="image-four   mx-auto" id="a"style="width: 300px;height: 500px; margin-left:33px; margin-top: 20px; border-radius: 10px; background-color: #FFF1DB">
+          <div class="image8">
+            <img src=".//image/cake4.jpg" alt=""  style="width: 293px;height: 250px; border-radius: 10px;">
+
+
+          </div>
+          <div class="content4 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+         
+        <!-- allproduct image closed -->
+      </div>
+       <div id="ani" style="height: 500px;"></div >
+       <!-- allproduct image third container start -->
+       <div class="container-fluid  d-flex mt-5 col-11 col-md-0 col-lg-11 mx-auto" style="height: 600px; weigth:200px; border-radius: 10px; ">
+        <div class="image-first  mt-5 mx-auto" id="a" style="height:500px; width: 22rem;background-color: #FFF1DB">
+           <div class="image9">
+            <img src=".//image/bread1.webp" alt="" style="width:337px; height:250px; border-radius: 10px;">
+
+           </div>
+           <div class="content5 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+
+           </div>
+        </div>
+        <div class="image-second  mt-5  mx-auto" id="a"style="height:500px; width: 22rem; background-color: #FFF1DB">
+          <div class="image10">
+            <img src=".//image/bread2.webp" alt="" style="width:337px; height:250px; border-radius: 10px;">
+
+          </div>
+          <div class="content6 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+        <div class="image-third mx-auto mt-5" id="a"style="height:500px; width: 22rem; background-color: #FFF1DB">
+          <div class="image11">
+            <img src=".//image/bread3.jpg" alt="" style="width:337px; height:250px; border-radius: 10px;">
+
+          </div>
+          <div class="content7 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+        <div class="image-third  mt-5  mx-auto" id="a" style="height:500px; width: 22rem;background-color: #FFF1DB">
+          <div class="image11">
+            <img src=".//image/bread4.jpeg" alt="" style="width:337px; height:250px; border-radius: 10px;">
+
+          </div>
+          <div class="content8 mt-4">
+            <h1 style="font-size: 20px; text-align: center;">dark chocolate</h1>
+            <h1 style="font-size: 20px; text-align: center;">Quantity3</h1>            
+            <div class="d-flex " >
+              <h1><i class="fa-regular fa-star " style="font-size: 20px; margin-left: 100px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1  style="font-size: 20px; text-align: center;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 20px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="margin-left: 80px; font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white; "> Add to Card</button>
+           
+          </div>
+        </div>
+        
+        </div>
+         
+        <!-- allproduct image closed -->
+      </div>
+
+      
+       <!-- background image container -->
+       <div class="banner-container mx-auto col-12 col-md-0 col-lg-12 mt-3"  >
+        <!-- inner div banner container -->
+         <div class="inner-bannerContainer   d-flex" style="height: 500px; background-image: url(.//image/baaner3.png)
+;  ">
+
+            <!-- <div class="leftdiv col-12 col-md-0 col-lg-7 mt-5  " style="height: 400px">
+             <h1 class="h1 mt-5" style="color:white; text-align: center;">Freshly Baked Goodness <br>Every Day!</h1>
+             <div class="button-buy mt-5">
+               <span><button style="margin-left: 23rem; width: 100px; height: 50px; border-radius: 10px; background-color: #FFDBB5; " class="fw-bold" >Buy</button></span>
+             </div>
+            </div>
+            -->
+         </div>
+        <!-- banner container closed -->
+       </div>
+       <!-- best seller container -->
+        <div class="bestseller-heading  mx-auto col-12 col-md-0 col-lg-12 mt-3 "  style="height: 100px; weigth:200px; background-color: #FFF1DB;">
+          <div class="best-heading" >
+       <h1 class="fw-bold" style="text-align:center; color:#3E2723 ">Best Seller</h1>
+          </div>
+          <div class="best-contant " >
+            <span style="color:#3E2723;">Try Our Customer Favorites
+              "Indulge in the treats that our customers can’t get enough of! From freshly baked croissants to our signature chocolate éclairs, these favorites are guaranteed to satisfy."</span>
+          </div>
+           <!-- best seller  container closed -->
+            
+        </div>
+        <!-- best seller container main image -->
+        <div class="bestseller-imagefirstcontainer  mx-auto col-12 col-md-0 col-lg-11 mt-5 "  style="height: 600px; weigth:200px;">
+            <!-- best seller container first image -->
+
+        <div class="bestseller-imagefirstcontainer d-flex mx-auto col-12 col-md-0 col-lg-11 mt-3 "  style="height: 250px; weigth:200px; ">
+          <div class="bestseller-image1  d-flex   mx-auto" id="a" style="height:250px; width: 24rem; background-color:  #FFF1DB;">
+            <div class="image1 " style="width: 50%;">
+              <img src=".//image/bestcookies1.jpeg" alt="" class="mt-4"style="border-radius: 100%; width:10rem; margin-left:5%;">
+
+            </div>
+            <br>
+            <div class="content1 " style="width: 50%;" >
+              <h1 style="font-size: 20px;">dark chocolate</h1>
+              <h1 style="font-size: 20px;">Quantity3</h1>
+
+
+              <div class="d-flex">
+                <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                <h1><i class="fa-regular fa-star" style="font-size: 20px;" ></i></h1>
+                <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              </div>
+             
+            <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign"style="font-size: 25px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+ 
+            </div>
+         </div>
+         <div class="bestseller-image2 d-flex  mx-auto" id="a" style="height:250px; width: 24rem; background-color:  #FFF1DB;">
+           <div class="image2" style="width: 50%;">
+            <img src=".//image/bestcookies2.jpg" alt="" class="mt-4"style="border-radius: 100%; width:10rem; margin-left:10%;">
+
+           </div>
+           <div class="content2 " style="width: 50%;">
+            <h1 style="font-size: 20px;">dark chocolate</h1>
+            <h1 style="font-size: 20px;">Quantity3</h1>            
+            <div class="d-flex">
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 25px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+            
+           </div>
+         </div>
+         <div class="bestseller-image3 d-flex   mx-auto" id="a"style="height:250px; width: 24rem; background-color:  #FFF1DB;">
+           <div class="image3 "  style="width: 50%;">
+            <img src=".//image/bestcookies2.jpg" alt="" class="mt-4" style="border-radius: 100%; width:10rem; margin-left:10%;">
+
+           </div>
+           <div class="content3 " style="width: 50%;">
+            <h1 style="font-size: 20px;">dark chocolate</h1>
+            <h1 style="font-size: 20px;">Quantity3</h1>       
+            <div class="d-flex">
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 25px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+            
+           </div>
+                       <!-- best seller container first image -->
+
+         </div>
+
+         <!-- main best seller image  first contianer closed -->
+         </div>
+         
+             <!-- best seller container second main image -->
+
+        <div class="bestseller-imagefirstcontainer d-flex mx-auto col-12 col-md-0 col-lg-11 mt-3 "  style="height: 300px; weigth:200px;">
+          <!-- best seller container second image -->
+          <div class="bestseller-image1 d-flex  mx-auto" id="a" style="height:290px; width: 24rem; background-color: #FFF1DB;">
+            <div class="image4 "  style="width: 50%;">
+              <img src=".//image/cake4.jpeg"alt="" class="mt-4" style="border-radius: 100%; width:10rem; margin-left:10%;" >
+              
+            </div>
+            <div class="content5" style="width: 50%;">
+              <div class="buycontianer">
+                <h1 style="font-size: 20px;">Ice Cake</h1>
+                <h1 style="font-size: 20px;">weigth-1 pond</h1>                    
+                <div class="d-flex">
+                  <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                  <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                  <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+                  <h1><i class="fa-regular fa-star"style="font-size: 20px;"></i></h1>
+                  <h1><i class="fa-regular fa-star"style="font-size: 20px;"></i></h1>
+                </div>
+                <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign"style="font-size: 25px;"></i>100</h1>
+                <i class="fa-solid fa-cart-plus"style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+
+              </div>
+ 
+            </div>
+         </div>
+         <div class="bestseller-image2 d-flex mx-auto" id="a"style="height:290px; width: 24rem; background-color:  #FFF1DB;">
+           <div class="image6 " style="width: 50%;">
+            <img src=".//image/bestcake2.jpeg" alt="" class="mt-4"  style="border-radius: 100%; width:10rem; margin-left:10%;">
+
+           </div>
+           <div class="content7 " style="width: 50%;">
+            <h1 style="font-size: 20px;">Chocolate Cake</h1>
+            <h1 style="font-size: 20px;">weigth - 2 pond</h1>                 
+            <div class="d-flex">
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 25px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus"style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+            
+           </div>
+         </div>
+         <div class="bestseller-image3 d-flex   mx-auto" id="a"style="height:290px; width: 24rem; background-color: #FFF1DB;">
+           <div class="image8 " style="width: 50%;">
+            <img src=".//image/cake2.jpeg"alt="" class="mt-4"  style="border-radius: 100%; width:10rem; margin-left:10%;">
+
+           </div>
+           <div class="content8 " style="width: 50%;">
+            <h1 style="font-size: 20px;">Dark chocolate Cake</h1>
+            <h1 style="font-size: 20px;">weigth-1 pond</h1>                  
+            <div class="d-flex">
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+              <h1><i class="fa-regular fa-star" style="font-size: 20px;"></i></h1>
+            </div>
+            <h1 style="font-size: 25px;"><i class="fa-solid fa-indian-rupee-sign" style="font-size: 25px;"></i>100</h1>
+            <i class="fa-solid fa-cart-plus" style="font-size: 30px;"></i> <button style="background-color: #3E2723; width: 7rem; height: 2.5rem; border-radius: 5px; color: white;"> Add to Card</button>
+            
+           </div>
+                       <!-- best seller container seond  image closed -->
+
+         </div>
+         
+         <!--  best seller second main contianer -->
+         </div>
+            
+         
+         
+
+        
+
+
+           <!-- best seller container main image closed -->
+            
+        </div>
+
+
+        <div class="mt-5" id="image"></div>
+         
+                  <!-- best seller third main container closed   -->
+                </div>
+
+          
+      
+         
+          
+        
+         
+        <!-- footer main container -->
+<div class="container-fluid mt-5" style="background-color:navy;">
+  <!-- footer first container -->
+  <div class="container footer-first d-flex">
+
+  <div class="footer-heading" style="width:20%; color: #3E2723;">
+          <!-- <img src="imagelogo1.jpg" alt="" style="height:100%; width:60%; border-radius:100%;"> -->
+           <h2 style="color: white;"><i>Bake Aura</i><br><span><i>Bakery</i></span></h2>
+  </div>
+
+  <div class="footer-searchbox" style="width:57%">
+    <!-- <input type="email" name="footer" id="footer" style="width:80%; margin:2% 20% ; border-radius:10px; height:40%; " placeholder="Enter your Email"> <br> -->
+    <!-- <button class="fw-bold" id="subscribe-btn">Subscribe Now </button> -->
+  </div>
+
+  <div class="footer-logo d-flex" style="width:35%;">
+    <i class="fa-brands fa-square-facebook mt-2"style="font-size:200%; margin-left:25%; cursor: pointer; color:white;"></i>            
+    <i class="fa-brands fa-linkedin mt-2"style="font-size:200%; margin-left:5%; cursor: pointer; color:white;"></i>
+    <i class="fa-brands fa-instagram mt-2"style="font-size:200%; margin-left:5%; cursor: pointer; color:white;"></i>            
+  </div>
+   <!-- footer first container closed -->
+  </div>
+  <hr style="border-color:white; margin-top: .4%; background-color:white; height:3px;">
+
+  <!-- footer second container -->
+  <div class="container secon-Container d-flex mt-1 ">
+                                                                       <!-- why people like -->
+ <div class="people-like d-grid text-center"  id="shopInfo">
+
+   <h2 class="fw-bold text-light">Why People Like us</h2>
+  <p id="link-text"">People like us because we prioritize
+   customer satisfaction above all. We focus on quality and reliability 
+  in our products and services, ensuring every customer has a positive experience.
+  Our team is always ready to solve customer issues promptly. Through transparency 
+  and integrity, we build trust, and our human-centric approach fosters a deeper 
+  emotional connection with our audience.</p>
+
+  <div class="footerbutton" style="height:20%;margin-bottom:19%; color: white;">
+ <button class="fw-bold" id="read-btn">Read More</button>
+</div>
+
+</div>
+
+<!-- shop-info -->
+                                                                
+  <div class="shop-info d-grid text-center" id="shopInfo">
+        <h2 class="fw-bold text-light" >Shop Info</h2>
+
+        <a href="" id="link-text" >Contact</a>
+        <a href="" id="link-text">About us</a>
+        <a href="" id="link-text">Privacy Policy</a>
+        <a href="" id="link-text">Term & Condition</a>
+        <a href="" id="link-text">Return Policy</a>
+        <a href="" id="link-text">FAQs & hlep</a>
+        
+</div>
+
+      <!-- Account -->
+                                                                      
+        <div class="account d-grid text-center" id="shopInfo">
+        <h2 class="fw-bold text-light" >Account</h2>
+                                                                              
+        <a href="" id="link-text" >My Account</a>
+        <a href="" id="link-text">Shopping Cart</a>
+        <a href="" id="link-text">Shop Details</a>
+        <a href="" id="link-text">Wishlist</a>
+        <a href="" id="link-text">Order History</a>
+        <a href="" id="link-text">Intrnational order</a>
+        
+      </div>
+
+         <!-- contact -->
+        <div class="contact d-grid text-center" id="shopInfo">
+        <h2 class="fw-bold text-light" >Contact</h2>
+
+        <a href="" id="link-text" >Address: Bhopal</a>
+        <a href="" id="link-text">Contact:</a>
+        <a href="" id="link-text">6268923703</a>
+        <a href="" id="link-text" >Email:</a>
+        <a href="" id="link-text" >Bakery459@gmail.com</a>
+        <a href="" id="link-text" >Payment Accepted</a>
+        <div class="d-flex" style="margin-left: 28%; width: 50%;">
+          <div>
+            <i class="fa-regular fa-credit-card" style="font-size:50px; margin-left:3%; color:white;"></i>
+          </div>
+        <div class="px-5">
+          <i class="fa-solid fa-file-invoice-dollar "style="font-size:50px; margin-left:1%; color:white;"></i>
+        </div>      
+</div>                                                                                 
+
+</div>
+   <!-- footer second container closed -->
+  </div>
+   <!-- footer main container -->
+</div>
+      <!-- webstie-layout  closed-->
+    </div>
+  </body>
+</html>

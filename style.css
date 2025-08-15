@@ -1,0 +1,243 @@
+/* reset css */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(255, 248, 220);
+  width: 100%;
+}
+.all-container {
+  display: flex;
+  width: 100vh;
+  height: 150vh;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  margin-bottom: 500rem;
+}
+
+/* contact div detail  */
+.topbar-container {
+  border: 1px solid green;
+  height: 3rem;
+  width: 78rem;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  display: flex;
+  border-radius: 40px 40px 20px 20px;
+}
+/* <!-- navbar-container start --> */
+.navbar-container {
+  position: sticky;
+  top: 0%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+}
+/* all navbar div css */
+.navbar-first-div,
+.navbar-second-div,
+.navbar-third-div {
+  
+
+  
+
+  justify-content: space-around;
+  height: 6rem;
+
+  color: blue;
+}
+
+/* first navbar id */
+
+.navbar-first-div {
+}
+
+/* third navbar id */
+
+#navbar-third {
+  width: 10rem;
+}
+
+.n:hover {
+  border-color: #9a7e6f;
+  border-radius: 10px;
+}
+
+ #ani {
+  animation-name: vineet;
+  animation-duration: 30s;
+  animation-delay: 3s;
+  animation-timing-function: 1000000000000000000000000000000000000000000000000000000000000000px;
+  animation-iteration-count: infinite;
+  background-image: url(.//image/ani11.jpg);
+  background-position: center center;
+}
+
+@keyframes vineet {
+ 
+  30% {
+    background-image: url(.//image/banner4.png);
+    animation-delay: 3s;
+
+  }
+  
+  50% {
+    background-image: url(.//image/animation2.png);
+    animation-delay: 3s;
+  }
+  80% {
+    background-image: url(.//image/aniimation1.png);
+    animation-delay: 3s;
+  }
+  100%{
+    background-image: url(.//image/newbanner.png);
+    animation-delay: 3s;
+  }
+ 
+ /* 100% {
+    background-image: url(.//image/baaner3.png);
+  } */
+ } 
+
+/* all product button */
+.allproduct {
+  float: right;
+  width: 100px;
+  margin: 10px;
+}
+#silder-box {
+  background: linear-gradient(to right,#FFF1DB,#FFF1DB);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+#silder {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+#silder span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(350px);
+}
+
+#silder span img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: 5s;
+  color: ma;
+}
+img:hover {
+  box-sizing: 0 0 30px skyblue;
+  cursor: pointer;
+  transform: scale(1.05);
+  overflow: hidden;
+  transition: 5 s;
+  object-fit: cover;
+  transition: all, ease-in-out;
+  transition: 0.2s;
+}
+#s:hover {
+  box-sizing: 0 0 30px skyblue;
+  cursor: pointer;
+ 
+  transition: all, ease-in-out;
+  transition: 0.2s;
+}
+
+#a {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+#a:hover {
+  border-color: blue;
+}
+
+
+
+#shopInfo{
+  text-decoration:none;
+  color:white;
+  font-weight:bold;
+  font-size: small;
+  border-bottom: 5px solid #3E2723;
+}
+
+#shopInfo a:hover{
+ font-size:larger;
+}
+
+.people-like{
+  width:30%;
+}
+
+.shop-info{
+  width: 22%;
+}
+
+.account{
+  width: 25%;
+}
+
+.contact{
+  width: 32%;
+}
+
+#link-text{
+  color: white;
+}
+
+#read-btn{
+  margin-left:3%;
+  margin-bottom:2%; 
+  width:55%; 
+  border-radius:10px;
+  color:rgb(124, 124, 236); 
+  background-color:white;
+  border: 2px solid white;
+  box-shadow: 3px 4px black;
+   
+}
+
+#read-btn:hover{
+   color:blue; 
+   border: 2px solid blue;
+   box-shadow: 2px 3px;
+   
+}
+#image{
+  background-image: url(./image/aniamtion3.png);
+  
+}
